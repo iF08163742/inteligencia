@@ -8,7 +8,14 @@ const perguntas = [
     {
         enunciado: "Morreu um familiar seu e você foi ao sepultamento, ao final do enterro você se encaminha em direção ao portão de saída e se depara com uma noiva com vestido branco todo sujo de sangue. O que você faz??",
         alternativas: [
-            "Eu fecho os olhos e passo correndo.",
+            {
+                texto: "Eu fecho os olhos e passo correndo.",
+                afirmação: "afirmação"
+            },
+            {
+                texto: 
+            }
+            
             "Eu caminho um pouco mais rápido e passo sem olhar para os lados junto fazendo uma reza na mente."
         ]
     },

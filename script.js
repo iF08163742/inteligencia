@@ -16,15 +16,19 @@ const perguntas = [
                 texto: "Eu caminho um pouco mais rápido e passo sem olhar para os lados junto fazendo uma reza na mente."
                 afirmação: "afirmação"
             }
-            
-            
         ]
     }
     {
         enunciado: "Ufa, você conseguiu entrar em seu carro, porém ao dar partida você nota que ele não está ligando e aquela noiva que estava na saída do cemitério está vindo em direção ao su carro. O que você faz??",
         alternativas: [
-            "Eu entro em crise e saio correndo sem direção e abandono o carro.",
-            "Eu tento o mais rápido possível ligar para alguém que possa me socorrer."
+            {
+                texto: "Eu entro em crise e saio correndo sem direção e abandono o carro."
+                afirmação: "afirmação"
+            }
+            {
+                texto: "Eu tento o mais rápido possível ligar para alguém que possa me socorrer."
+                afirmação: "afirmação"
+            }
         ]
     }
 ];
@@ -41,7 +45,11 @@ function mostraPergunta() {
 function mostraAlternativas(){
 for(const alternativa of perguntaAtual.alternativas){
     const botaoAlternativas = document.createElement("button");
-    botaoAlternativastaoAlternativas.textContent = alternativa;
+    botaoAlternativas.textContent = alternativa.texto;
+    botaoAlternativas.addEventListener("click", function(){
+        atual++;
+        mostraPergunta();
+    })
 caixaAlternativas.appendChild(botaoAlternativas);
 }
 }

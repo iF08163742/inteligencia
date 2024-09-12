@@ -11,14 +11,15 @@ const perguntas = [
             {
                 texto: "Eu fecho os olhos e passo correndo.",
                 afirmação: "afirmação"
-            },
+            }
             {
-                texto: 
+                texto: "Eu caminho um pouco mais rápido e passo sem olhar para os lados junto fazendo uma reza na mente."
+                afirmação: "afirmação"
             }
             
-            "Eu caminho um pouco mais rápido e passo sem olhar para os lados junto fazendo uma reza na mente."
+            
         ]
-    },
+    }
     {
         enunciado: "Ufa, você conseguiu entrar em seu carro, porém ao dar partida você nota que ele não está ligando e aquela noiva que estava na saída do cemitério está vindo em direção ao su carro. O que você faz??",
         alternativas: [

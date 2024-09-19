@@ -6,15 +6,18 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Morreu um familiar seu e você foi ao sepultamento, ao final do enterro você se encaminha em direção ao portão de saída e se depara com uma noiva com vestido branco todo sujo de sangue. O que você faz??",
-        alternativas: [
+        enunciado: "Morreu um familiar seu e você foi ao sepultamento, ao final do enterro você se encaminha em direção ao portão de saída e se depara com uma noiva com vestido branco todo sujo de sangue. O que você faz??"[
+            alternativas: [
             {
                 texto: "Eu fecho os olhos e passo correndo.",
                 afirmacao: "bdgfsdfsd"
+                ]
             },
             {
+                [
                 texto: "Eu caminho um pouco mais rápido e passo sem olhar para os lados junto fazendo uma reza na mente.",
                 afirmacao: "afirmação"
+                ]
             }
         ],
         }

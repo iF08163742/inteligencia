@@ -10,7 +10,7 @@ const perguntas = [
             alternativas, [
             {
                 texto: "Eu fecho os olhos e passo correndo.",
-                afirmacao: "bdgfsdfsd"
+                afirmacao: "afirmação"
                 ]
             },
             {
@@ -42,8 +42,13 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta() {
+if(atual >= perguntas.length){
+mostraResultado();
+return;
+    }
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
@@ -62,4 +67,9 @@ function respostaSelecionada(opçaoSelecionada){
     atual++;
     mostraPergunta();
 }
+
+function mostraResultado(){
+    
+}
+
 mostraPergunta();

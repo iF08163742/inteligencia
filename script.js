@@ -10,13 +10,13 @@ const perguntas =
             alternativas, [
             {
                 texto: "Eu fecho os olhos e passo correndo.",
-                afirmacao: "afirmação"
+                afirmacao: "afirmação",
             }
         ],
             
                 [
                 texto, "Eu caminho um pouco mais rápido e passo sem olhar para os lados junto fazendo uma reza na mente.",
-                afirmacao, "afirmação"
+                afirmacao, "afirmação",
                 ]
             
         ],
@@ -35,7 +35,7 @@ const perguntas =
                 afirmacao: "afirmação",
                 ]
             ],
-            }   
+    }
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
